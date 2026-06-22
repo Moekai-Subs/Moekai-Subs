@@ -1,17 +1,17 @@
 [
   {
-    "anime": "Rent-a-Girlfriend S4",
-    "episode": "Episode 01",
-    "type": "ASS",
-    "updated": "2026-06-22",
-    "download": "https://example.com/rent-gf-s4-ep01.ass"
-  },
-  {
-    "anime": "Rent-a-Girlfriend S4",
+    "anime": "Princess Principal: Crown Handler",
     "episode": "Episode 02",
     "type": "ASS",
-    "updated": "2026-06-23",
-    "download": "https://example.com/rent-gf-s4-ep02.ass"
+    "updated": "2026-06-22",
+    "download": "blob:https://github.com/2fc8923e-0fa2-44d4-afd7-7b990a390fda"
+  },
+  {
+    "anime": "Princess Principal: Crown Handler",
+    "episode": "Episode 03",
+    "type": "ASS",
+    "updated": "2026-06-22",
+    "download": "blob:https://github.com/1ab8fc6d-f81c-428a-a762-96dbb48afddf"
   },
   {
     "anime": "Dandadan",

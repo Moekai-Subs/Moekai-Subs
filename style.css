@@ -1,4 +1,4 @@
-/* ===== Reset & Base ===== */
+
 * {
     box-sizing: border-box;
 }
@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-/* ===== Loading State ===== */
+
 .loading {
     text-align: center;
     padding: 60px 20px;
@@ -24,7 +24,7 @@ a {
     font-size: 14px;
 }
 
-/* ===== Navbar ===== */
+
 .navbar {
     background: #161616;
     padding: 16px 32px;
@@ -70,21 +70,21 @@ a {
     background: #222;
 }
 
-/* ===== Main ===== */
+
 main {
     max-width: 1100px;
     margin: 0 auto;
     padding: 32px 24px 60px;
 }
 
-/* ===== Release List (Homepage) ===== */
+
 .release-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-/* ===== Homepage Card ===== */
+
 .release-card {
     display: flex;
     align-items: center;
@@ -101,7 +101,7 @@ main {
     border-color: #4ea3ff;
 }
 
-/* ===== File Type Badge ===== */
+
 .file-badge {
     padding: 4px 10px;
     font-size: 11px;
@@ -131,7 +131,7 @@ main {
     border: 1px solid rgba(251, 191, 36, 0.3);
 }
 
-/* ===== Homepage Card Content ===== */
+
 .release-content {
     display: flex;
     align-items: center;
@@ -172,7 +172,7 @@ main {
     flex-shrink: 0;
 }
 
-/* ===== Anime Page Styles ===== */
+
 .back-button-container {
     margin-bottom: 24px;
 }
@@ -212,14 +212,14 @@ main {
     font-family: "SF Mono", Consolas, monospace;
 }
 
-/* ===== Anime Page Episode List ===== */
+
 .episode-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-/* ===== Episode Card ===== */
+
 .episode-card {
     display: flex;
     align-items: center;
@@ -258,7 +258,7 @@ main {
     flex-shrink: 0;
 }
 
-/* ===== Empty State ===== */
+
 .empty-state {
     text-align: center;
     padding: 60px 20px;
@@ -266,7 +266,7 @@ main {
     font-size: 14px;
 }
 
-/* ===== Mobile ===== */
+
 @media (max-width: 640px) {
     .navbar {
         padding: 14px 20px;

@@ -1,0 +1,37 @@
+[
+  {
+    "anime": "Rent-a-Girlfriend S4",
+    "episode": "Episode 01",
+    "type": "ASS",
+    "updated": "2026-06-22",
+    "download": "https://example.com/rent-gf-s4-ep01.ass"
+  },
+  {
+    "anime": "Rent-a-Girlfriend S4",
+    "episode": "Episode 02",
+    "type": "ASS",
+    "updated": "2026-06-23",
+    "download": "https://example.com/rent-gf-s4-ep02.ass"
+  },
+  {
+    "anime": "Dandadan",
+    "episode": "Episode 01",
+    "type": "ASS",
+    "updated": "2026-06-19",
+    "download": "https://example.com/dandadan-ep01.ass"
+  },
+  {
+    "anime": "Dandadan",
+    "episode": "Episode 02",
+    "type": "SRT",
+    "updated": "2026-06-20",
+    "download": "https://example.com/dandadan-ep02.srt"
+  },
+  {
+    "anime": "Lycoris Recoil",
+    "episode": "Episode 01",
+    "type": "ASS",
+    "updated": "2026-06-15",
+    "download": "https://example.com/lycoris-recoil-ep01.ass"
+  }
+]

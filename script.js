@@ -6,6 +6,16 @@ function getAnimeFromURL() {
     return urlParams.get('anime');
 }
 
+// One-click download function
+function downloadFile(url) {
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = '';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
 async function loadSubtitles() {
     try {
         const response = await fetch('data/subtitles.json');
@@ -56,9 +66,8 @@ function renderHomepage() {
         const badgeClass = sub.type.toLowerCase();
         const animeUrl = `anime.html?anime=${encodeURIComponent(sub.anime)}`;
         
-        // ใช้ div ไม่ใช่ a เพื่อไม่ให้ซ้อนกับ a ของ title
         return `
-            <div class="release-card" onclick="window.location.href='${sub.download}'">
+            <div class="release-card" onclick="downloadFile('${sub.download}')">
                 <span class="file-badge ${badgeClass}">${sub.type}</span>
                 <div class="release-content">
                     <div class="release-info">
@@ -111,18 +120,17 @@ function renderAnimePage() {
         </div>
     `;
     
-    // Anime page ใช้ <a> ได้เลย เพราะไม่มี link ซ้อนข้างใน
     const episodesHtml = sortedEps.map(ep => {
         const badgeClass = ep.type.toLowerCase();
         
         return `
-            <a href="${ep.download}" class="episode-card" download>
+            <div class="episode-card" onclick="downloadFile('${ep.download}')">
                 <span class="file-badge ${badgeClass}">${ep.type}</span>
                 <div class="episode-info">
                     <span class="episode-name">${ep.episode}</span>
                     <span class="episode-date">${ep.updated}</span>
                 </div>
-            </a>
+            </div>
         `;
     }).join('');
     

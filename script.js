@@ -6,7 +6,7 @@ function getAnimeFromURL() {
     return urlParams.get('anime');
 }
 
-// One-click download function
+
 function downloadFile(url) {
     const a = document.createElement('a');
     a.href = url;
